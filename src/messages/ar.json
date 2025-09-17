@@ -1,0 +1,180 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ",
+    "success": "نجح",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "submit": "إرسال",
+    "next": "التالي",
+    "previous": "السابق",
+    "saveDraft": "حفظ كمسودة",
+    "add": "إضافة",
+    "remove": "إزالة",
+    "required": "مطلوب"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "articles": "المنشورات",
+    "contributors": "لوحة التحكم",
+    "interactiveMap": "الخريطة التفاعلية",
+    "askAQuestion": "السؤال السؤال",
+    "about": "عنا"
+  },
+  "hero": {
+    "card1": {
+      "title": "مستودع التصميم",
+      "description": ""
+    },
+    "card2": {
+      "title": "مستكشف المملكة",
+      "description": "تعرف على الميزات الرئيسية للمناطق المختلفة في المملكة العربية السعودية."
+    },
+    "card3": {
+      "title": "البحث المعماري",
+      "description": ""
+    }
+  },
+  "articleForm": {
+    "title": "إنشاء مقال جديد",
+    "steps": {
+      "general": {
+        "title": "المعلومات العامة",
+        "description": "معلومات المقال الأساسية"
+      },
+      "body": {
+        "title": "المحتوى",
+        "description": "محتوى المقال والمرفقات"
+      },
+      "references": {
+        "title": "المراجع والشكر",
+        "description": "قائمة المراجع والمعلومات الإضافية"
+      }
+    },
+    "labels": {
+      "topicName": "اسم الموضوع",
+      "articleCategory": "فئة المقال",
+      "typology": "النوعية",
+      "discipline": "التخصص",
+      "location": "الموقع",
+      "region": "المنطقة",
+      "geographicLocation": "الموقع الجغرافي",
+      "latitude": "خط العرض (س،ص°)",
+      "longitude": "خط الطول (س،ص°)",
+      "altitude": "الارتفاع (م)",
+      "accuracy": "الدقة (م)",
+      "architectDesigner": "المهندس/المصمم",
+      "clientOwner": "العميل/المالك",
+      "date": "التاريخ",
+      "typeOfDate": "نوع التاريخ",
+      "selectDateType": "اختر نوع التاريخ",
+      "yearMonthDay": "السنة/الشهر/اليوم",
+      "yearMonth": "السنة/الشهر",
+      "year": "السنة",
+      "summary": "الملخص/المقدمة",
+      "title": "العنوان",
+      "paragraph": "الفقرة",
+      "attachments": "المرفقات",
+      "maxImages": "حد أقصى 5 صور.",
+      "uploadImage": "ارفع الصورة هنا.",
+      "fileTypes": "نوع الملف المسموح: jpg، png، الحد الأقصى لحجم الملف: 5 ميجابايت.",
+      "description": "الوصف",
+      "tags": "العلامات",
+      "bibliography": "قائمة المراجع",
+      "bibliographyEntry": "مدخل المراجع",
+      "sourceDescription": "وصف المصدر",
+      "linkReference": "الرابط/المرجع",
+      "additionalAuthors": "المؤلفون الإضافيون",
+      "author": "المؤلف",
+      "name": "الاسم"
+    },
+    "fields": {
+      "topicName": "اسم الموضوع",
+      "articleCategory": "فئة المقال",
+      "typology": "النوعية",
+      "discipline": "التخصص",
+      "region": "المنطقة",
+      "latitude": "خط العرض (س،ص°)",
+      "longitude": "خط الطول (س،ص°)",
+      "altitude": "الارتفاع (م)",
+      "accuracy": "الدقة (م)",
+      "architects": "المهندسون/المصممون",
+      "clients": "العملاء",
+      "dates": "التواريخ",
+      "summary": "الملخص",
+      "title": "العنوان",
+      "paragraph": "الفقرة",
+      "attachments": "المرفقات",
+      "description": "الوصف",
+      "tags": "العلامات",
+      "bibliography": "قائمة المراجع",
+      "additionalAuthors": "المؤلفون الإضافيون",
+      "sourceDescription": "وصف المصدر",
+      "linkReference": "الرابط/المرجع",
+      "name": "الاسم",
+      "fullname": "الاسم الكامل",
+      "typeOfDate": "نوع التاريخ",
+      "date": "التاريخ"
+    },
+    "placeholders": {
+      "enterTopicName": "أدخل اسم الموضوع",
+      "selectCategory": "اختر الفئة",
+      "selectRegion": "اختر المنطقة",
+      "enterLatitude": "26.743100",
+      "enterLongitude": "37.95322",
+      "enterAltitude": "0",
+      "enterAccuracy": "0",
+      "enterArchitectName": "الاسم الكامل",
+      "enterClientName": "الاسم الكامل",
+      "enterDateType": "نوع التاريخ",
+      "enterDate": "التاريخ",
+      "enterSummary": "أدخل ملخص المقال...",
+      "enterTitle": "أدخل عنوان المقال",
+      "enterParagraph": "أدخل محتوى المقال...",
+      "enterDescription": "أدخل وصف الصورة...",
+      "enterTags": "أضف الكلمات المفتاحية أو العبارات ذات الصلة لربط وتصنيف المدخلات. افصل العلامات بفواصل.",
+      "enterSourceDescription": "أدخل وصف المصدر",
+      "enterLinkReference": "أدخل الرابط أو المرجع",
+      "enterAuthorName": "أدخل اسم المؤلف"
+    },
+    "buttons": {
+      "addArchitect": "إضافة مهندس/مصمم",
+      "addClient": "إضافة عميل",
+      "addDate": "إضافة تاريخ",
+      "addAttachment": "إضافة مرفق",
+      "addBibliography": "إضافة مرجع",
+      "addAuthors": "إضافة مؤلفين",
+      "addMore": "إضافة المزيد"
+    },
+    "validation": {
+      "topicNameRequired": "اسم الموضوع مطلوب",
+      "categoryRequired": "فئة المقال مطلوبة",
+      "typologyRequired": "يجب اختيار نوعية واحدة على الأقل",
+      "disciplineRequired": "يجب اختيار تخصص واحد على الأقل",
+      "regionRequired": "المنطقة مطلوبة",
+      "latitudeRequired": "خط العرض مطلوب",
+      "longitudeRequired": "خط الطول مطلوب",
+      "altitudeRequired": "الارتفاع مطلوب",
+      "accuracyRequired": "الدقة مطلوبة",
+      "architectNameRequired": "اسم المهندس مطلوب",
+      "clientNameRequired": "اسم العميل مطلوب",
+      "dateTypeRequired": "نوع التاريخ مطلوب",
+      "dateRequired": "التاريخ مطلوب",
+      "summaryRequired": "الملخص مطلوب",
+      "titleRequired": "العنوان مطلوب",
+      "titleMaxLength": "يجب أن يكون العنوان أقل من 100 حرف",
+      "paragraphRequired": "الفقرة مطلوبة",
+      "paragraphMaxLength": "يجب أن تكون الفقرة أقل من 1000 حرف",
+      "descriptionRequired": "الوصف مطلوب",
+      "descriptionMaxLength": "يجب أن يكون الوصف أقل من 500 حرف",
+      "sourceDescriptionRequired": "وصف المصدر مطلوب",
+      "linkReferenceRequired": "الرابط/المرجع مطلوب",
+      "authorNameRequired": "اسم المؤلف مطلوب",
+      "maxAttachments": "الحد الأقصى 5 صور مسموح"
+    },
+    "success": {
+      "title": "نجح!",
+      "message": "تم إنشاء مقالك بنجاح وهو الآن في انتظار الموافقة!"
+    }
+  }
+}

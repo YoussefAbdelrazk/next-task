@@ -1,0 +1,180 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Previous",
+    "saveDraft": "Save Draft",
+    "add": "Add",
+    "remove": "Remove",
+    "required": "Required"
+  },
+  "navigation": {
+    "home": "Home",
+    "articles": "Articles",
+    "contributors": "Contributors",
+    "interactiveMap": "Interactive Map",
+    "askAQuestion": "Ask A Question",
+    "about": "About us"
+  },
+  "hero": {
+    "card1": {
+      "title": "Design Repository",
+      "description": ""
+    },
+    "card2": {
+      "title": "Kingdom Explorer",
+      "description": "Learn about the key features of different regions in the Kingdom of Saudi Arabia."
+    },
+    "card3": {
+      "title": "Architectural Research",
+      "description": ""
+    }
+  },
+  "articleForm": {
+    "title": "Create New Article",
+    "steps": {
+      "general": {
+        "title": "General Information",
+        "description": "Basic article information"
+      },
+      "body": {
+        "title": "Body",
+        "description": "Article content and attachments"
+      },
+      "references": {
+        "title": "References & Acknowledgements",
+        "description": "Bibliography and additional information"
+      }
+    },
+    "labels": {
+      "topicName": "Topic Name",
+      "articleCategory": "Article Category",
+      "typology": "Typology",
+      "discipline": "Discipline",
+      "location": "Location",
+      "region": "Region",
+      "geographicLocation": "Geographic Location",
+      "latitude": "Latitude (x,y°)",
+      "longitude": "Longitude (x,y°)",
+      "altitude": "Altitude (m)",
+      "accuracy": "Accuracy (m)",
+      "architectDesigner": "Architect/Designer",
+      "clientOwner": "Client/Owner",
+      "date": "Date",
+      "typeOfDate": "Type of date",
+      "selectDateType": "Select the type of date",
+      "yearMonthDay": "Year/Month/Day",
+      "yearMonth": "Year/Month",
+      "year": "Year",
+      "summary": "Summary/Introduction",
+      "title": "Title",
+      "paragraph": "Paragraph",
+      "attachments": "Attachments",
+      "maxImages": "Maximum 5 images.",
+      "uploadImage": "Upload the image here.",
+      "fileTypes": "Allowed file type: jpg, png, maximum size per file: 5 MB.",
+      "description": "Description",
+      "tags": "Tags",
+      "bibliography": "Bibliography",
+      "bibliographyEntry": "Bibliography Entry",
+      "sourceDescription": "Source Description",
+      "linkReference": "Link/Reference",
+      "additionalAuthors": "Additional Authors",
+      "author": "Author",
+      "name": "Name"
+    },
+    "fields": {
+      "topicName": "Topic Name",
+      "articleCategory": "Article Category",
+      "typology": "Typology",
+      "discipline": "Discipline",
+      "region": "Region",
+      "latitude": "Latitude (x,y°)",
+      "longitude": "Longitude (x,y°)",
+      "altitude": "Altitude (m)",
+      "accuracy": "Accuracy (m)",
+      "architects": "Architects/Designers",
+      "clients": "Clients",
+      "dates": "Dates",
+      "summary": "Summary",
+      "title": "Title",
+      "paragraph": "Paragraph",
+      "attachments": "Attachments",
+      "description": "Description",
+      "tags": "Tags",
+      "bibliography": "Bibliography",
+      "additionalAuthors": "Additional Authors",
+      "sourceDescription": "Source Description",
+      "linkReference": "Link/Reference",
+      "name": "Name",
+      "fullname": "Fullname",
+      "typeOfDate": "Type of Date",
+      "date": "Date"
+    },
+    "placeholders": {
+      "enterTopicName": "Enter topic name",
+      "selectCategory": "Select category",
+      "selectRegion": "Select region",
+      "enterLatitude": "26.743100",
+      "enterLongitude": "37.95322",
+      "enterAltitude": "0",
+      "enterAccuracy": "0",
+      "enterArchitectName": "Fullname",
+      "enterClientName": "Fullname",
+      "enterDateType": "Type of date",
+      "enterDate": "Date",
+      "enterSummary": "Enter article summary...",
+      "enterTitle": "Enter article title",
+      "enterParagraph": "Enter article content...",
+      "enterDescription": "Enter image description...",
+      "enterTags": "Add relevant keywords or phrases to connect and categorize entries. Separate tags with commas.",
+      "enterSourceDescription": "Enter source description",
+      "enterLinkReference": "Enter link or reference",
+      "enterAuthorName": "Enter author name"
+    },
+    "buttons": {
+      "addArchitect": "Add Architect/Designer",
+      "addClient": "Add Client",
+      "addDate": "Add Date",
+      "addAttachment": "Add Attachment",
+      "addBibliography": "Add Bibliography",
+      "addAuthors": "Add Authors",
+      "addMore": "Add more"
+    },
+    "validation": {
+      "topicNameRequired": "Topic name is required",
+      "categoryRequired": "Article category is required",
+      "typologyRequired": "At least one typology must be selected",
+      "disciplineRequired": "At least one discipline must be selected",
+      "regionRequired": "Region is required",
+      "latitudeRequired": "Latitude is required",
+      "longitudeRequired": "Longitude is required",
+      "altitudeRequired": "Altitude is required",
+      "accuracyRequired": "Accuracy is required",
+      "architectNameRequired": "Architect name is required",
+      "clientNameRequired": "Client name is required",
+      "dateTypeRequired": "Type of date is required",
+      "dateRequired": "Date is required",
+      "summaryRequired": "Summary is required",
+      "titleRequired": "Title is required",
+      "titleMaxLength": "Title must be less than 100 characters",
+      "paragraphRequired": "Paragraph is required",
+      "paragraphMaxLength": "Paragraph must be less than 1000 characters",
+      "descriptionRequired": "Description is required",
+      "descriptionMaxLength": "Description must be less than 500 characters",
+      "sourceDescriptionRequired": "Source description is required",
+      "linkReferenceRequired": "Link/Reference is required",
+      "authorNameRequired": "Author name is required",
+      "maxAttachments": "Maximum 5 images allowed"
+    },
+    "success": {
+      "title": "Success!",
+      "message": "Your article has been created successfully and is now pending approval!"
+    }
+  }
+}
