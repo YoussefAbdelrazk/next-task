@@ -3,6 +3,7 @@ export { default as Navbar } from './Navbar/navbar';
 export { default as AiSection } from './AiSection/ai-section';
 export { default as Article } from './Article/article';
 export { default as Categories } from './Catgories/categories';
+export { default as FixedBottomIcon } from './FixedBottomIcon/FixedBottomIcon';
 export { default as Footer } from './Footer/footer';
 export { default as Rate } from './Footer/rate';
 export { default as Foryou } from './ForYou/foryou';

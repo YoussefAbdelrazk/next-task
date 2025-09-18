@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button';
+import { MessageSquareDot, ThumbsUpIcon } from 'lucide-react';
 import Image from 'next/image';
 
 export default function article() {
@@ -45,7 +46,7 @@ export default function article() {
             <p className=' text-[#767676]'>#Cultural</p>
             <p className=' text-[#767676]'>#Recreational</p>
           </div>
-
+          <div className='flex items-center justify-between'>
           <div className='flex items-center gap-2 mt-4'>
             <Image
               src='/assets/Author.jpg'
@@ -58,6 +59,15 @@ export default function article() {
               <p className='text-sm font-medium text-[#0F2837]'>Author name</p>
               <p className='text-sm text-[#767676]'>Publish Date 12/04/2024</p>
             </div>
+          </div>
+          <div className='flex items-center justify-center gap-2 text-[#767676] font-bold'>
+            <span className='flex items-center gap-2'>
+              <ThumbsUpIcon className='w-4 h-4' /> 73
+            </span>
+            <span className='flex items-center gap-2'>
+              <MessageSquareDot className='w-4 h-4' /> 820
+            </span>
+          </div>
           </div>
           <Button className='bg-main h-[53px] hover:bg-[#FF5733]/90 text-white px-6 py-4 text-lg font-medium rounded-md transition-all duration-300 w-fit capitalize cursor-pointer mt-6'>
             View More

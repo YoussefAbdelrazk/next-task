@@ -183,7 +183,7 @@ export function ArticleForm() {
         showSuccessDialog ? 'blur-lg' : ''
       }`}
     >
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 py-4 sm:py-8'>
+      <div className='max-w-[1300px] mx-auto px-4 sm:px-6 lg:px-4 py-4 sm:py-8 w-full'>
         <div className='flex flex-col lg:flex-row gap-4 lg:gap-8'>
           {/* Left Sidebar - Progress Indicator */}
           <div className='w-full lg:w-64 flex-shrink-0 border-b lg:border-b-0 lg:border-r border-gray-200 dark:border-gray-700 pb-4 lg:pb-0'>
@@ -194,7 +194,7 @@ export function ArticleForm() {
 
           {/* Main Content */}
           <div className='flex-1'>
-            <div className='bg-white dark:bg-gray-800 rounded-lg shadow-sm'>
+            <div className='bg-white dark:bg-gray-800 rounded-lg '>
               <Form {...form}>
                 <form onSubmit={form.handleSubmit(handleSubmit)} className='space-y-8'>
                   <div className='p-4 sm:p-6 lg:p-8'>{renderCurrentStep()}</div>

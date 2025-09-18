@@ -178,7 +178,7 @@ export function GeneralInformationStep() {
 
       {/* Location */}
       <div className='space-y-4'>
-        <h3 className='text-base font-bold text-main'>{t('labels.location')}</h3>
+        <h3 className='text-base font-bold text-main mb-4'>{t('labels.location')}</h3>
 
         <FormField
           control={control}
@@ -208,7 +208,7 @@ export function GeneralInformationStep() {
         />
 
         <div className='space-y-3'>
-          <h4 className='text-md font-medium text-gray-900 dark:text-white'>
+          <h4 className='text-base font-bold text-main mb-4'>
             {t('labels.geographicLocation')}
           </h4>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3'>
@@ -224,7 +224,7 @@ export function GeneralInformationStep() {
                     <Input
                       placeholder={t('placeholders.enterLatitude')}
                       {...field}
-                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676]'
+                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
                     />
                   </FormControl>
                   <FormMessage />
@@ -243,7 +243,7 @@ export function GeneralInformationStep() {
                     <Input
                       placeholder={t('placeholders.enterLongitude')}
                       {...field}
-                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676]'
+                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
                     />
                   </FormControl>
                   <FormMessage />
@@ -262,7 +262,7 @@ export function GeneralInformationStep() {
                     <Input
                       placeholder={t('placeholders.enterAltitude')}
                       {...field}
-                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676]'
+                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
                     />
                   </FormControl>
                   <FormMessage />
@@ -281,7 +281,7 @@ export function GeneralInformationStep() {
                     <Input
                       placeholder={t('placeholders.enterAccuracy')}
                       {...field}
-                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676]'
+                      className=' border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
                     />
                   </FormControl>
                   <FormMessage />
@@ -294,7 +294,7 @@ export function GeneralInformationStep() {
 
       {/* Architect/Designer */}
       <div className='space-y-4'>
-        <h3 className='text-base font-bold text-main'>{t('labels.architectDesigner')}</h3>
+        <h3 className='text-base font-bold text-main mb-4'>{t('labels.architectDesigner')}</h3>
         {architectFields.map((field, index) => (
           <div key={field.id} className='relative'>
             <FormField
@@ -338,7 +338,7 @@ export function GeneralInformationStep() {
 
       {/* Client/Owner */}
       <div className='space-y-4'>
-        <h3 className='text-base font-bold text-main'>{t('labels.clientOwner')}</h3>
+        <h3 className='text-base font-bold text-main mb-4'>{t('labels.clientOwner')}</h3>
         {clientFields.map((field, index) => (
           <div key={field.id} className='relative'>
             <FormField
@@ -382,7 +382,7 @@ export function GeneralInformationStep() {
 
       {/* Date */}
       <div className='space-y-4'>
-        <h3 className='text-base font-bold text-main'>{t('labels.date')}</h3>
+        <h3 className='text-base font-bold text-main mb-4 '>{t('labels.date')}</h3>
         {dateFields.map((field, index) => (
           <div key={field.id} className='space-y-4 p-4 border rounded-lg'>
             <div className='relative'>

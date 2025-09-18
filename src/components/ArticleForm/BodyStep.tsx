@@ -25,7 +25,7 @@ export function BodyStep() {
   const paragraph = watch('body.paragraph') || '';
 
   return (
-    <div className='space-y-6 lg:space-y-8'>
+    <div className='space-y-6 lg:space-y-8 '>
       <div>
         <h2 className='text-xl sm:text-2xl font-bold text-gray-900 dark:text-white'>
           {t('steps.body.title')}
@@ -42,7 +42,7 @@ export function BodyStep() {
               <FormLabel className='text-base text-main font-bold'>
                 {t('labels.title')} <span className='text-red-500'>*</span>
               </FormLabel>
-              <span className='text-sm text-gray-500'>{title.length}/100</span>
+
             </div>
             <FormControl>
               <Input
@@ -50,7 +50,9 @@ export function BodyStep() {
                 {...field}
                 className='border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
               />
+
             </FormControl>
+            <span className='text-sm text-end text-gray-500'>{title.length}/100</span>
             <FormMessage />
           </FormItem>
         )}
@@ -66,7 +68,7 @@ export function BodyStep() {
               <FormLabel className='text-base text-main font-bold'>
                 {t('labels.paragraph')} <span className='text-red-500'>*</span>
               </FormLabel>
-              <span className='text-sm text-gray-500'>{paragraph.length}/1000</span>
+
             </div>
             <FormControl>
               <Textarea
@@ -75,6 +77,7 @@ export function BodyStep() {
                 {...field}
               />
             </FormControl>
+            <span className='text-sm text-end text-gray-500'>{paragraph.length}/5000</span>
             <FormMessage />
           </FormItem>
         )}
@@ -98,8 +101,8 @@ export function BodyStep() {
               <div className='border-2 border-dashed border-gray-300 rounded-lg p-8 text-center'>
                 <div className='flex flex-col items-center space-y-2'>
                   <Upload className='h-8 w-8 text-gray-400' />
-                  <p className='text-sm text-gray-600'>{t('labels.uploadImage')}</p>
-                  <p className='text-xs text-gray-500'>{t('labels.fileTypes')}</p>
+                  <p className='text-md text-main font-medium'>{t('labels.uploadImage')}</p>
+                  <p className='text-sm text-[#A0A0A0] font-medium'>{t('labels.fileTypes')}</p>
                 </div>
                 {attachmentFields.length > 1 && (
                   <button
@@ -122,7 +125,7 @@ export function BodyStep() {
                     <FormLabel className='text-base text-main font-bold'>
                       {t('labels.description')}
                     </FormLabel>
-                    <span className='text-sm text-gray-500'>{field.value?.length || 0}/500</span>
+
                   </div>
                   <FormControl>
                     <Textarea
@@ -131,6 +134,7 @@ export function BodyStep() {
                       {...field}
                     />
                   </FormControl>
+                  <span className='text-sm text-end text-gray-500'>{field.value?.length || 0}/250</span>
                   <FormMessage />
                 </FormItem>
               )}

@@ -2,15 +2,17 @@ import {
   AiSection,
   Article,
   Categories,
+  FixedBottomIcon,
   Foryou,
   HeroSection,
   LatestArticle,
   Map,
   Newsletter,
-  Footer,
 } from '@/components';
 
 export default function Home() {
+
+
   return (
     <>
       <AiSection />
@@ -21,7 +23,9 @@ export default function Home() {
       <Foryou />
       <Map />
       <Newsletter />
-      
+
+      {/* Fixed bottom icon - only visible on home page */}
+      <FixedBottomIcon  className='animate-pulse' />
     </>
   );
 }

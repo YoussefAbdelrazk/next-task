@@ -50,7 +50,7 @@ export default function Card({
               <p className='text-sm text-[#767676]'>Publish Date 12/04/2024</p>
             </div>
           </div>
-          <div className='flex items-center justify-center gap-2 text-[#767676]'>
+          <div className='flex items-center justify-center gap-2 text-[#767676] font-bold'>
             <span className='flex items-center gap-2'>
               <ThumbsUpIcon className='w-4 h-4' /> 73
             </span>

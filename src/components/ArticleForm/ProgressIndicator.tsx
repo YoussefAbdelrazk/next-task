@@ -70,10 +70,10 @@ export function ProgressIndicator({ currentStep, completedSteps }: ProgressIndic
                         ? 'text-[#7D305E]'
                         : isCompleted
                         ? 'text-[#71908C]'
-                        : 'text-gray-500',
+                        : 'text-[#767676]',
                     )}
                   >
-                    {stepNumber} {step.title}
+                    {step.title}
                   </p>
                   <p className='text-xs text-gray-400 dark:text-gray-500 mt-1'>
                     {step.description}

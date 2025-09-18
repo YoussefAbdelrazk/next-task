@@ -17,11 +17,11 @@ export function SuccessDialog({ open, onOpenChange }: SuccessDialogProps) {
       <DialogContent className='sm:max-w-lg '>
         <DialogHeader className='text-center'>
           <div className='flex justify-center mb-4'>
-            <div className='flex h-16 w-16 items-center justify-center text-[#71908C] mb-5'>
+            <div className='flex h-16 w-16 items-center justify-center text-[#71908C] '>
               <CheckCircle className='h-8 w-8 ' />
             </div>
           </div>
-          <DialogTitle className='text-xl text-center font-medium text-main'>
+          <DialogTitle className='text-xl text-center font-medium text-main mb-12'>
             {t('message')}
           </DialogTitle>
         </DialogHeader>
