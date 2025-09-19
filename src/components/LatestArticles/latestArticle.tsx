@@ -1,6 +1,6 @@
 import SharedButton from '@/components/Shared/SharedButton';
 import Card from '../Shared/Card';
-import { Button } from '../ui/button';
+// import { Button } from '../ui/button'; // Uncomment when Button is needed
 
 export default function latestArticle() {
   return (
@@ -27,7 +27,7 @@ export default function latestArticle() {
         />
       </div>
       <div className='flex items-center justify-center mt-8'>
-        
+
         <SharedButton title='View more' bgColor='bg-main' textColor='text-white' />
       </div>
     </div>

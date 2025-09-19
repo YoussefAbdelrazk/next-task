@@ -1,5 +1,6 @@
 import Footer from '@/components/Footer/footer';
 import Navbar from '@/components/Navbar/navbar';
+import PerformanceMonitor from '@/components/PerformanceMonitor';
 import { ThemeProvider } from '@/components/ThemeProvider';
 // import StickyNavbar from '@/components/StickyNavbar/sticky-navbar';
 import { getMessages } from '@/i18n/request';
@@ -39,7 +40,7 @@ export default async function RootLayout({
   const messages = await getMessages(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning >
+    <html lang={locale} suppressHydrationWarning>
       <body className={`${sourceSans.variable} antialiased`}>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider
@@ -53,6 +54,7 @@ export default async function RootLayout({
               {/* <StickyNavbar /> */}
               {children}
               <Footer />
+              <PerformanceMonitor />
             </div>
           </ThemeProvider>
         </NextIntlClientProvider>

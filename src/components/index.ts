@@ -13,6 +13,8 @@ export { default as Map } from './Map/map';
 export { default as Newsletter } from './NewsLetter/newsletter';
 export { default as Card } from './Shared/Card';
 export { default as CommonButton } from './Shared/CommonButton';
+export { default as LazyWrapper } from './Shared/LazyWrapper';
+export { default as OptimizedImage } from './Shared/OptimizedImage';
 export { default as SharedButton } from './Shared/SharedButton';
 export { default as StickyNavbar } from './StickyNavbar/sticky-navbar';
 

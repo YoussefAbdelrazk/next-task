@@ -1,6 +1,7 @@
 'use client';
 
 import { Button } from '@/components/ui/button';
+import { ARIA_LABELS } from '@/lib/utils/accessibility';
 import { RefreshCw } from 'lucide-react';
 
 interface FixedBottomIconProps {
@@ -18,11 +19,15 @@ export default function FixedBottomIcon({ className = '' }: FixedBottomIconProps
            bg-gradient-to-r from-[#6D1945] to-[#7D305E]
            transition-all duration-300 ease-in-out
            hover:scale-110 active:scale-95 cursor-pointer
+           focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#7D305E]
            ${className}
           `}
-        aria-label='Fixed bottom action'
+        aria-label={ARIA_LABELS.primaryAction}
+        title='Refresh or reload content'
+        role='button'
+        tabIndex={0}
       >
-        {<RefreshCw className='w-8 h-8' />}
+        <RefreshCw className='w-8 h-8' aria-hidden='true' />
       </Button>
     </div>
   );

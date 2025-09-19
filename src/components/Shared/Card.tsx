@@ -28,7 +28,7 @@ export default function Card({
           <div className='w-0.5 h-8 bg-gray-300'></div>
           <p className='bg-[#F4F4F4] py-2 px-3 text-[#767676] rounded-full'>{text2}</p>
         </div>
-        <p className='text[#A0A0A0] max-w-[700px]  '>
+        <p className='text-gray-500 max-w-[700px]  '>
           Lorem ipsum dolor sit amet consectetur. Vitae pulvinar at enim ac magna. Nisi pretium
           viverra pharetra risus nunc justo molestie nunc..
         </p>
