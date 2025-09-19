@@ -27,7 +27,7 @@ export default function latestArticle() {
         />
       </div>
       <div className='flex items-center justify-center mt-8'>
-        {/* <Button className='bg-main text-white px-4 py-3 w-[110px] h-[43px] '>View more</Button> */}
+        
         <SharedButton title='View more' bgColor='bg-main' textColor='text-white' />
       </div>
     </div>

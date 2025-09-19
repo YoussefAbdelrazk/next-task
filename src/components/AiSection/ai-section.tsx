@@ -2,13 +2,13 @@ import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-react';
 import Image from 'next/image';
 
-export default function AiSection() {
+export default function AiSection({ setIsAiOpen }: { setIsAiOpen: (isAiOpen: boolean) => void }) {
   return (
     <div className='bg-[#FBFBFB] mt-24'>
       <div className='max-w-[1312px] mx-auto px-16 py-6 flex flex-col md:flex-row  items-center gap-4.5'>
         <div className='flex items-center gap-2'>
           <Image src='/assets/Ai.svg' alt='ai' width={30} height={30} />
-          <p className='text-2xl font-medium text-[#ED6B50]'>AskAi</p>
+          <button className='text-2xl font-medium text-[#ED6B50] cursor-pointer' onClick={() => setIsAiOpen(false)}>AskAi</button>
         </div>
 
         <div className='relative w-full'>

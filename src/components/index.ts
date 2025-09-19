@@ -12,6 +12,7 @@ export { default as LatestArticle } from './LatestArticles/latestArticle';
 export { default as Map } from './Map/map';
 export { default as Newsletter } from './NewsLetter/newsletter';
 export { default as Card } from './Shared/Card';
+export { default as CommonButton } from './Shared/CommonButton';
 export { default as SharedButton } from './Shared/SharedButton';
 export { default as StickyNavbar } from './StickyNavbar/sticky-navbar';
 

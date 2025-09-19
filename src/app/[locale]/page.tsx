@@ -1,5 +1,4 @@
 import {
-  AiSection,
   Article,
   Categories,
   FixedBottomIcon,
@@ -11,11 +10,9 @@ import {
 } from '@/components';
 
 export default function Home() {
-
-
   return (
     <>
-      <AiSection />
+      {/* <AiSection /> */}
       <HeroSection />
       <Article />
       <Categories />
@@ -25,7 +22,7 @@ export default function Home() {
       <Newsletter />
 
       {/* Fixed bottom icon - only visible on home page */}
-      <FixedBottomIcon  className='animate-pulse' />
+      <FixedBottomIcon className='animate-pulse' />
     </>
   );
 }

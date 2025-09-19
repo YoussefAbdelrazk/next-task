@@ -10,7 +10,7 @@ export default function ForYou() {
   const [activeTab, setActiveTab] = useState<'foryou' | 'following'>('foryou');
 
   return (
-    <div className='bg-secondary section-padding relative overflow-hidden relative'>
+    <div className='bg-secondary section-padding overflow-hidden'>
       <div className='flex items-center gap-8'>
         <h2
           className={`text-3xl font-bold duration-300 cursor-pointer transition-all ${
