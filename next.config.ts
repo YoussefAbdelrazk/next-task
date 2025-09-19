@@ -2,9 +2,6 @@ import { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
-  // Fix workspace root warning
-  outputFileTracingRoot: '/Users/youssefhazo/Desktop/next-task',
-
   // Performance optimizations
   experimental: {
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],

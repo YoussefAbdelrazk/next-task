@@ -20,7 +20,7 @@ export function usePerformance() {
   });
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === 'undefined' || typeof performance === 'undefined') return;
 
     // Get Core Web Vitals
     const getWebVitals = () => {
@@ -122,7 +122,7 @@ export function useMemoryUsage() {
   } | null>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined') return;
+    if (typeof window === 'undefined' || typeof performance === 'undefined') return;
 
     const updateMemoryInfo = () => {
       if ('memory' in performance) {

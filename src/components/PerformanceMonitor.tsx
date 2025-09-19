@@ -10,10 +10,14 @@ export default function PerformanceMonitor() {
   // Only show in development
   useEffect(() => {
     if (process.env.NODE_ENV === 'development') {
-      console.group('🚀 Performance Metrics');
-      console.log('Core Web Vitals:', metrics);
-      console.log('Memory Usage:', memoryInfo);
-      console.groupEnd();
+      try {
+        console.group('🚀 Performance Metrics');
+        console.log('Core Web Vitals:', metrics);
+        console.log('Memory Usage:', memoryInfo);
+        console.groupEnd();
+      } catch (error) {
+        console.warn('Performance monitoring error:', error);
+      }
     }
   }, [metrics, memoryInfo]);
 

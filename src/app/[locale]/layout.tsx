@@ -1,3 +1,4 @@
+import ErrorBoundary from '@/components/ErrorBoundary';
 import Footer from '@/components/Footer/footer';
 import Navbar from '@/components/Navbar/navbar';
 import PerformanceMonitor from '@/components/PerformanceMonitor';
@@ -49,13 +50,15 @@ export default async function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <div className=' overflow-x-hidden'>
-              <Navbar />
-              {/* <StickyNavbar /> */}
-              {children}
-              <Footer />
-              <PerformanceMonitor />
-            </div>
+            <ErrorBoundary>
+              <div className=' overflow-x-hidden'>
+                <Navbar />
+                {/* <StickyNavbar /> */}
+                {children}
+                <Footer />
+                <PerformanceMonitor />
+              </div>
+            </ErrorBoundary>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
