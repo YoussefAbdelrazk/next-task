@@ -6,11 +6,13 @@ export default function AiSection({ setIsAiOpen }: { setIsAiOpen: (isAiOpen: boo
   return (
     <div className='bg-[#FBFBFB] mt-24'>
       <div className='max-w-[1312px] mx-auto px-16 py-6 flex flex-col md:flex-row  items-center gap-4.5'>
+        {/* AskAi Button */}
         <div className='flex items-center gap-2'>
           <Image src='/assets/Ai.svg' alt='ai' width={30} height={30} />
           <button className='text-2xl font-medium text-[#ED6B50] cursor-pointer' onClick={() => setIsAiOpen(false)}>AskAi</button>
         </div>
 
+        {/* Search Input */}
         <div className='relative w-full'>
           <Input placeholder='Title,Keywords,Type of Content' className='w-full pl-10 bg-white' />
           <Search

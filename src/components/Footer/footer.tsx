@@ -5,7 +5,9 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
 export default function footer() {
   return (
     <div>
+      {/* Rate */}
       <Rate />
+      {/* Footer */}
       <div className='bg-main py-6 px-4 sm:px-8 lg:px-20 text-white'>
         <div className='flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-4'>
           {/* left */}

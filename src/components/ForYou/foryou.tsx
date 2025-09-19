@@ -11,6 +11,7 @@ export default function ForYou() {
 
   return (
     <div className='bg-secondary section-padding overflow-hidden'>
+      {/* For You and Following Tabs */}
       <div className='flex items-center gap-8'>
         <h2
           className={`text-3xl font-bold duration-300 cursor-pointer transition-all ${
@@ -34,8 +35,10 @@ export default function ForYou() {
         </h2>
       </div>
 
+      {/* Divider */}
       <div className='w-full h-[1px] bg-gray-300 my-1'></div>
 
+      {/* For You and Following Cards */}
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8'>
         {activeTab === 'foryou'
           ? forYouContent.map((item, index) => (
@@ -57,17 +60,19 @@ export default function ForYou() {
               />
             ))}
       </div>
+      {/* View more Button */}
       <div className='flex items-center justify-center mt-8'>
         <SharedButton title='View more' bgColor='bg-main' textColor='text-white' />
       </div>
 
+      {/* Layer Image */}
       <div className='bg-secondary mt-4'>
         <Image
           src='/assets/layer.png'
           alt='foryou'
           width={500}
           height={500}
-          className='w-full h-full object-cover'
+            className='w-full h-full object-cover'
         />
       </div>
     </div>

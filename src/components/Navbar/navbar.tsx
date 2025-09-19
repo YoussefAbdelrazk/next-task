@@ -191,7 +191,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-
+      {/* Ai Section */}
       <div className={` ${isAiOpen ?   'hidden' : 'fixed top-25 left-18 z-50' } `} >
         <button className='bg-[#FDEFEC] w-[100px] p-2 rounded-b-md cursor-pointer' onClick={toggleAi}>
           <div className='flex items-center gap-2'>

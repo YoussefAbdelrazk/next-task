@@ -5,7 +5,9 @@ export default function Categories() {
   return (
     <div className='section-padding'>
       <div className='section-container'>
+        {/* Categories Title */}
         <h2 className='text-3xl font-bold text-main'>Categories</h2>
+        {/* Categories Cards */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-4 mt-8'>
           <CategoriesCard
             title='Project'
