@@ -49,7 +49,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className='bg-[#ffffff] border-b border-[#D9D9D9] py-4 md:py-7 flex items-center shadow-md z-50 animate-in slide-in-from-top-2 duration-300 fixed top-0 left-0 right-0'>
+      <div className='bg-[#ffffff] border-b border-[#D9D9D9] py-4 md:py-7 flex items-center shadow-md z-50 animate-in slide-in-from-top-2 duration-300 '>
         <div className='max-w-[1328px] mx-auto flex items-center justify-between w-full px-4'>
           {/* Logo/Brand - visible on all screens */}
           <div className='flex md:hidden items-center '>
@@ -192,7 +192,7 @@ export default function Navbar() {
         </div>
       </div>
       {/* Ai Section */}
-      <div className={` ${isAiOpen ?   'hidden' : 'fixed top-25 left-18 z-50' } `} >
+      <div className={` ${isAiOpen ?   'hidden' : 'absolute top-25 left-18 z-50' } `} >
         <button className='bg-[#FDEFEC] w-[100px] p-2 rounded-b-md cursor-pointer' onClick={toggleAi}>
           <div className='flex items-center gap-2'>
             <Image src='/assets/Ai.svg' alt='ai' width={15} height={15} />

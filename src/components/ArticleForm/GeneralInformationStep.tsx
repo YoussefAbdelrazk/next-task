@@ -157,7 +157,7 @@ export function GeneralInformationStep() {
       {/* Discipline */}
       <div className='space-y-3'>
         <FormLabel className='text-base font-bold text-main'>{t('labels.discipline')}</FormLabel>
-        <div className='flex flex-wrap gap-2 sm:gap-3.5'>
+        <div className='flex flex-wrap gap-2 sm:gap-3.5 '>
           {disciplineOptions.map(option => (
             <div key={option} className='flex items-center gap-3.5 text-[#767676]'>
               <Checkbox
@@ -208,9 +208,7 @@ export function GeneralInformationStep() {
         />
 
         <div className='space-y-3'>
-          <h4 className='text-base font-bold text-main mb-4'>
-            {t('labels.geographicLocation')}
-          </h4>
+          <h4 className='text-base font-bold text-main mb-4'>{t('labels.geographicLocation')}</h4>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3'>
             <FormField
               control={control}
@@ -381,7 +379,7 @@ export function GeneralInformationStep() {
       </div>
 
       {/* Date */}
-      <div className='space-y-4'>
+      <div className='space-y-4 '>
         <h3 className='text-base font-bold text-main mb-4 '>{t('labels.date')}</h3>
         {dateFields.map((field, index) => (
           <div key={field.id} className='space-y-4 p-4 border rounded-lg'>
@@ -391,9 +389,9 @@ export function GeneralInformationStep() {
                 name={`generalInformation.dates.${index}.typeOfDate`}
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel>{t('labels.typeOfDate')} *</FormLabel>
+                    <FormLabel className='my-2'>{t('labels.typeOfDate')} *</FormLabel>
                     <FormControl>
-                      <div className='relative'>
+                      <div className='relative '>
                         <Input
                           placeholder={t('placeholders.enterDateType')}
                           {...field}
@@ -403,7 +401,7 @@ export function GeneralInformationStep() {
                           <button
                             type='button'
                             onClick={() => removeDate(index)}
-                            className='button-remove'
+                            className='button-remove-bigsection'
                           >
                             <Trash2 className='h-4 w-4' />
                           </button>

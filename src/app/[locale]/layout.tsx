@@ -56,7 +56,7 @@ export default async function RootLayout({
                 {/* <StickyNavbar /> */}
                 {children}
                 <Footer />
-                <PerformanceMonitor />
+                {/* <PerformanceMonitor /> */}
               </div>
             </ErrorBoundary>
           </ThemeProvider>

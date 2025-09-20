@@ -5,7 +5,7 @@ import { BreadcrumbNav } from './BreadcrumbNav';
 
 export function ArticleHeader() {
   return (
-    <div className='bg-[#FBFBFB] border-b pt-[200px] pb-20 px-20 w-full'>
+    <div className='bg-[#FBFBFB] border-b pt-[100px] pb-20 px-20 w-full'>
       <div className=' flex items-center justify-center'>
         {/* Breadcrumb and Cancel Button */}
         <div className='flex items-center justify-between w-full'>

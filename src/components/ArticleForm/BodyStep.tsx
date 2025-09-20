@@ -42,7 +42,6 @@ export function BodyStep() {
               <FormLabel className='text-base text-main font-bold'>
                 {t('labels.title')} <span className='text-red-500'>*</span>
               </FormLabel>
-
             </div>
             <FormControl>
               <Input
@@ -50,7 +49,6 @@ export function BodyStep() {
                 {...field}
                 className='border-2 border-[#D9D9D9] placeholder:text-[#767676] h-[47px]'
               />
-
             </FormControl>
             <span className='text-sm text-end text-gray-500'>{title.length}/100</span>
             <FormMessage />
@@ -68,7 +66,6 @@ export function BodyStep() {
               <FormLabel className='text-base text-main font-bold'>
                 {t('labels.paragraph')} <span className='text-red-500'>*</span>
               </FormLabel>
-
             </div>
             <FormControl>
               <Textarea
@@ -108,7 +105,7 @@ export function BodyStep() {
                   <button
                     type='button'
                     onClick={() => removeAttachment(index)}
-                    className=' absolute -top-8 right-1 transition-colors border-2 border-[#B41932] text-[#B41932] rounded p-1  '
+                    className=' absolute -top-8 right-1 transition-colors border-1 border-[#B41932] text-[#B41932] rounded p-1  '
                   >
                     <Trash2 className='h-3 w-3 ' />
                   </button>
@@ -125,7 +122,6 @@ export function BodyStep() {
                     <FormLabel className='text-base text-main font-bold'>
                       {t('labels.description')}
                     </FormLabel>
-
                   </div>
                   <FormControl>
                     <Textarea
@@ -134,7 +130,9 @@ export function BodyStep() {
                       {...field}
                     />
                   </FormControl>
-                  <span className='text-sm text-end text-gray-500'>{field.value?.length || 0}/250</span>
+                  <span className='text-sm text-end text-gray-500'>
+                    {field.value?.length || 0}/250
+                  </span>
                   <FormMessage />
                 </FormItem>
               )}

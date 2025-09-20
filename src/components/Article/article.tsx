@@ -7,7 +7,7 @@ export default function article() {
     <div className='bg-secondary section-padding relative overflow-hidden  '>
       {/* Mask */}
       <div className='absolute top-0 right-0'>
-        <Image src='/assets/Mask.png' alt='article' width={500} height={100} />
+        <Image src='/assets/Mask.png' alt='article' width={500} height={100} className='object-cover' />
       </div>
       <div className='section-container grid grid-cols-1 md:grid-cols-2 place-items-center  gap-4 py-12 md:py-0'>
         {/* Article Image */}
@@ -18,7 +18,7 @@ export default function article() {
             width={500}
             height={500}
 
-            className='object-cover rounded h-full w-full '
+            className='object-cover rounded h-[400px] w-[500px] '
           />
         </div>
 

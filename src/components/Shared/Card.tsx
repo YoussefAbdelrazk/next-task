@@ -13,9 +13,9 @@ export default function Card({
   image: string;
 }) {
   return (
-    <div className='bg-white rounded-lg p-4 border  border-[#E8E9E9] flex flex-col items-center justify-center'>
-      <div className='flex  items-center justify-center'>
-        <Image src={image} alt='article' width={500} height={500} />
+    <div className='bg-white rounded-lg p-3 border  border-[#E8E9E9] flex flex-col items-center justify-center'>
+      <div className='flex  items-center justify-center w-full'>
+        <Image src={image} alt='article' width={500} height={500} className='object-cover w-full h-[190px] rounded' />
       </div>
 
       <div className='flex flex-col gap-5 w-full mt-5'>

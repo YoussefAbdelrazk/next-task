@@ -9,13 +9,13 @@ export const forYouContent = [
     text1: 'Movment',
     textcolor: '#E7EAEB',
     text2: 'Industrial Design',
-    image: '/assets/article.png',
+    image: '/assets/Card3.jpg',
   },
   {
     text1: 'Figure',
     textcolor: '#FEEFE5',
     text2: 'Industrial Design',
-    image: '/assets/article.png',
+    image: '/assets/Card2.jpg',
   },
 ];
 

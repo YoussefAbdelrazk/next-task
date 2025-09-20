@@ -2,11 +2,11 @@ import { Button } from '@/components/ui/button';
 import { ARIA_LABELS } from '@/lib/utils/accessibility';
 import { buttonStyles, layoutStyles } from '@/lib/utils/styles';
 import { ArrowRight } from 'lucide-react';
-// import { useTranslations } from 'next-intl'; // Uncomment when translations are needed
+
 import Image from 'next/image';
 
 export default function HeroSection() {
-  // const t = useTranslations('hero'); // Uncomment when translations are needed
+
 
   return (
     <section

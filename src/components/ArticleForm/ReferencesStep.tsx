@@ -70,7 +70,7 @@ export function ReferencesStep() {
                 <button
                   type='button'
                   onClick={() => removeBibliography(index)}
-                  className=' absolute top-2 right-1 transition-colors border-2 border-[#B41932] text-[#B41932] rounded p-1  '
+                  className=' absolute top-2 right-1 transition-colors border-1 border-[#B41932] text-[#B41932] rounded p-1  '
                 >
                   <Trash2 className='h-3 w-3 ' />
                 </button>
@@ -143,7 +143,7 @@ export function ReferencesStep() {
                 <button
                   type='button'
                   onClick={() => removeAuthor(index)}
-                  className=' absolute top-2 right-1 transition-colors border-2 border-[#B41932] text-[#B41932] rounded p-1  '
+                  className=' absolute top-2 right-1 transition-colors border-1 border-[#B41932] text-[#B41932] rounded p-1  '
                 >
                   <Trash2 className='h-3 w-3 ' />
                 </button>

@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function AiSection({ setIsAiOpen }: { setIsAiOpen: (isAiOpen: boolean) => void }) {
   return (
-    <div className='bg-[#FBFBFB] mt-24'>
+    <div className='bg-[#FBFBFB] '>
       <div className='max-w-[1312px] mx-auto px-16 py-6 flex flex-col md:flex-row  items-center gap-4.5'>
         {/* AskAi Button */}
         <div className='flex items-center gap-2'>

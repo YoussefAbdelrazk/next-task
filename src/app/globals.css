@@ -169,7 +169,7 @@
 }
 /* Section Padding */
 .section-padding{
- @apply px-20 py-16;
+ @apply px-6 lg:px-20 py-16;
 }
 /* section container */
 .section-container{
@@ -236,7 +236,10 @@
 
 /* Button Remove */
 .button-remove {
-  @apply absolute right-3 top-1/2 transform -translate-y-1/2 transition-colors border-2 border-[#B41932] text-[#B41932] rounded p-1;
+  @apply absolute right-3 top-1/2 transform -translate-y-1/2 transition-colors border-[0.8px] border-[#B41932] text-[#B41932] rounded p-1;
+}
+.button-remove-bigsection{
+  @apply absolute -top-9 right-1 transition-colors border-[0.8px] border-[#B41932] text-[#B41932] rounded p-1;
 }
 
 /* Custom scrollbar for better UX */

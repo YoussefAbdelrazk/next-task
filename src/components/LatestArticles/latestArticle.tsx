@@ -19,18 +19,17 @@ export default function latestArticle() {
           text1='Project'
           textcolor='#E7EAEB'
           text2='Industrial Design'
-          image='/assets/article.png'
+          image='/assets/Card1.png'
         />
         <Card
           text1='General'
           textcolor='#FEEFE5'
           text2='Industrial Design'
-          image='/assets/article.png'
+          image='/assets/Card2.jpg'
         />
       </div>
       {/* View more Button */}
       <div className='flex items-center justify-center mt-8'>
-
         <SharedButton title='View more' bgColor='bg-main' textColor='text-white' />
       </div>
     </div>

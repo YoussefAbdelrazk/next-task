@@ -10,6 +10,7 @@ import {
   generalInformationSchema,
   referencesSchema,
 } from '@/lib/schemes/article-schema';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 import { useForm } from 'react-hook-form';
@@ -33,6 +34,7 @@ export function ArticleForm() {
   const [showSuccessDialog, setShowSuccessDialog] = useState(false);
 
   const form = useForm<ArticleFormData>({
+    resolver: zodResolver(articleSchema),
     defaultValues: {
       generalInformation: {
         topicName: '',
